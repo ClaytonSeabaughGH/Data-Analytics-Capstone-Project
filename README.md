@@ -38,7 +38,7 @@ Copy
 Edit
 source venv/bin/activate
 ```
-📂 Installing Project Dependencies
+### 3. Installing Project Dependencies
 After activating the environment:
 
 ``` bash
@@ -52,7 +52,7 @@ Copy
 Edit
 pip freeze > requirements.txt
 ```
-✅ Deactivating the Virtual Environment
+### 4. Deactivating the Virtual Environment
 To exit the virtual environment when you're done:
 
 ```bash
