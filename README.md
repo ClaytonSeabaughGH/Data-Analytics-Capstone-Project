@@ -71,12 +71,18 @@ EDA and model visualizations highlighted correlations and patterns such as:
 
 ```bash
 .
-├── data/                   # Dataset (if available)
-├── notebooks/             # Jupyter notebooks for EDA & modeling
-├── images/                # Graphs and plots
-├── models/                # Saved model files (optional)
-├── README.md              # Project overview
-└── requirements.txt       # Python dependencies
+├── analysis_code/                  # Jupyter Notebooks and model scripts
+    ├── data_cleaning.ipynb
+    ├── eda.ipynb
+    ├── ml_analysis.ipynb
+├── data/
+│   ├── education_career_success_csv.csv     # Cleaned dataset
+│   └── raw_education_career_success.csv     # Original data
+├── images/                        # Plots and visualizations (optional)
+├── README.md                      # This file
+├── requirements.txt               # Python dependencies
+├── LICENSE                        # MIT License
+└── .gitignore                     # Files to exclude from version control
 ```
 
 # Project Setup Guide
