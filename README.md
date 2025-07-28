@@ -77,7 +77,7 @@ EDA and model visualizations highlighted correlations and patterns such as:
 ├── models/                # Saved model files (optional)
 ├── README.md              # Project overview
 └── requirements.txt       # Python dependencies
-
+```
 
 # Project Setup Guide
 
