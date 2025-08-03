@@ -1,11 +1,11 @@
 # Data-Analytics-Capstone-Project
-# 🎓 Machine Learning: Predicting Student Outcomes
+# Machine Learning: Predicting Student Outcomes
 
 This project aims to predict early career success metrics—**Starting Salary** and **Number of Job Offers**—for recent graduates using supervised machine learning techniques. Leveraging a dataset of academic performance, demographic attributes, and career outcomes, we develop and evaluate predictive models to uncover key factors influencing student success after graduation.
 
 ---
 
-## 📌 Project Objectives
+## Project Objectives
 
 - Predict **Starting Salary** and **Job Offers** using student data  
 - Identify important features that impact early career outcomes  
@@ -14,7 +14,7 @@ This project aims to predict early career success metrics—**Starting Salary** 
 
 ---
 
-## 🧠 Methods & Tools
+## Methods & Tools
 
 **Languages & Libraries:**  
 Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
@@ -33,7 +33,7 @@ Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 The dataset contains demographic, academic, and career information for recent graduates. It includes features such as:
 
@@ -42,11 +42,25 @@ The dataset contains demographic, academic, and career information for recent gr
 - Internship experience  
 - Final starting salary and number of job offers  
 
-> 📁 *Note: For privacy reasons, the dataset used in this project may be anonymized or synthetically generated.*
+>  *Note: For privacy reasons, the dataset used in this project may be anonymized or synthetically generated.*
+
 
 ---
 
-## 🚀 Results Summary
+## Key Visualizations & Diagrams
+1. Exploratory Data Analysis (EDA)
+![ExampleDistribution]
+
+![StartingSalaryDistribution] 
+
+![CorrelationHeatmap]
+
+![CountFieldStudy]
+
+
+---
+
+## Results Summary
 
 - **Random Forest Regressors** were effective in modeling both salary and job offer predictions.
 - Key features impacting success included:
@@ -58,16 +72,8 @@ The dataset contains demographic, academic, and career information for recent gr
 
 ---
 
-## 📈 Visual Insights
 
-EDA and model visualizations highlighted correlations and patterns such as:
-
-- Students with internship experience consistently received more job offers.  
-- Communication skills and GPA were strong predictors of starting salary.
-
----
-
-## 📁 Repository Structure
+## Repository Structure
 
 ```bash
 .
@@ -91,14 +97,14 @@ This guide provides instructions to set up and manage the Python virtual environ
 
 ---
 
-## 📦 Prerequisites
+## Prerequisites
 
 - Python 3.8 or higher installed  
 - (Optional but recommended) [pipx](https://pypa.github.io/pipx/) or a tool like [pyenv](https://github.com/pyenv/pyenv)
 
 ---
 
-## 🛠️ Setting Up the Virtual Environment
+## Setting Up the Virtual Environment
 
 ### 1. Create a Virtual Environment
 
