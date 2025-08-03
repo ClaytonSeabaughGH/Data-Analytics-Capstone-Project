@@ -49,13 +49,13 @@ The dataset contains demographic, academic, and career information for recent gr
 
 ## Key Visualizations & Diagrams
 1. Exploratory Data Analysis (EDA)
-![ExampleDistribution]
+![Distribution](screenshots\Distribution_Age_HSGPA.png)
 
-![StartingSalaryDistribution] 
+![StartingSalaryDistribution](screenshots\Distribution_Starting_Salary.png)
 
-![CorrelationHeatmap]
+![CorrelationHeatmap](screenshots\Correlation_Heatmap.png)
 
-![CountFieldStudy]
+![CountFieldStudy](screenshots\Count_FoS_CJL.png)
 
 
 ---
