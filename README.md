@@ -48,7 +48,7 @@ The dataset contains demographic, academic, and career information for recent gr
 ---
 
 ## Key Visualizations & Diagrams
-1. Exploratory Data Analysis (EDA)  
+1. ### Exploratory Data Analysis (EDA)  
 ![Distribution](screenshots/Distribution_Age_HSGPA.png)
 
 ![StartingSalaryDistribution](screenshots/Distribution_Starting_Salary.png)
@@ -57,22 +57,23 @@ The dataset contains demographic, academic, and career information for recent gr
 
 ![CountFieldStudy](screenshots/Count_FoS_CJL.png)
 
-2. Model Performance Metrics  
+2. ### Model Performance Metrics  
 ![RSMER2Scores](screenshots/RSME_R2_Scores.png)
 
-3. Feature Importance
+3. ### Feature Importance
 ![FeatureImportance](screenshots/Feature_Importances.png)
 ---
 
 ## Results Summary
 
-- **Random Forest Regressors** were effective in modeling both salary and job offer predictions.
-- Key features impacting success included:
-  - GPA  
-  - Internship Experience  
-  - Major and University Tier  
-  - Communication and Leadership Ratings
-- The model showed strong predictive performance with R² values exceeding 0.80 in some cases.
+- **Random Forest Regressors** struggled to effectively model salary and job offer predictions:
+  - Salary Prediction R2: -.025 
+  - Job Offers Prediction R2: -0.058
+- Model Performance Assessment:
+  - The models showed poor predictive capability with negative R2 values
+  - High RMSE values indicate significant prediction errors:
+    - Salary Predictions were off by about $14,773 on average
+    - Job offer predicitions were off by 1.78 offers on average
 
 ---
 
