@@ -57,7 +57,11 @@ The dataset contains demographic, academic, and career information for recent gr
 
 ![CountFieldStudy](screenshots/Count_FoS_CJL.png)
 
+2. Model Performance Metrics  
+![RSMER2Scores](screenshots/RSME_R2_Scores.png)
 
+3. Feature Importance
+![FeatureImportance](screenshots/Feature_Importances.png)
 ---
 
 ## Results Summary
