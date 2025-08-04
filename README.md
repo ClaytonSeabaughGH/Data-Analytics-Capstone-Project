@@ -77,7 +77,40 @@ The dataset contains demographic, academic, and career information for recent gr
 
 ---
 
+## Future Work & Enhancements
+1. ### Data Quality Improvements
+- Source real-world datasets with verified outcomes.
 
+- Incorporate qualitative features: Interview performance, mentorship, geographic location.
+
+2. ### Modeling Advancements
+- Classification for Job Offers: Treat offers as discrete categories (0, 1, 2+) instead of regression.
+
+- Alternative Algorithms:
+
+  - Gradient Boosting (XGBoost, LightGBM)
+
+  - Neural Networks for non-linear relationships
+
+  - Interpretability: Use SHAP values or Partial Dependence Plots to explain predictions.
+
+3. ### Feature Engineering
+- Derive composite metrics:
+
+  - "Academic Rigor Score" (GPA + SAT + University Tier)
+
+  - "Career Prep Index" (Internships + Certifications + Networking)
+
+  - Explore interaction terms (e.g., GPA × Internships).
+
+4. ### Evaluation Rigor
+- Implement k-fold cross-validation for robust performance estimates.
+
+- Establish baseline models (e.g., mean prediction) to contextualize R².
+
+
+
+---
 ## Repository Structure
 
 ```bash
